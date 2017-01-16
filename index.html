@@ -1,68 +1,48 @@
 ﻿<!DOCTYPE html>
 <html>
   <head>
-    <title>Анонс</title>
+    <title>Form</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-<style type="text/css">	
-	h1{font-family:Georgia; color:#EDF1B6; font-size:40px; text-shadow:#DED0A4 0 0 5px}
-	h2{font-family:Georgia; color:#F8DBB5; font-size:32px}
-	li a{color:white}
-	img {
-  display: inline-block;
-  height: auto;
-  max-width: 100%;
-	</style>
-	</head>
-  <body style="background:url(pic2.jpg)">
-    <ul class="nav nav-tabs nav-justified">
-     <li class="active"><a href="#">Главная</a></li>
-     <li><a href="#">Новости</a></li>
-     <li><a href="#">СМИ</a></li>
-	 <li><a href="#">Галерея</a></li>
-    </ul>
-	 <div class="container-flued"> 
-       <div class="row"> 
-	       <div class="col-md-12"><h1 class="text-center">Новостной портал РГПУ им. А.И. Герцена</h1>  </div> 
-	   </div>		  
-		
-       <div class="row">
-          <div class="col-md-12"> <h2 class="text-center "> Анонсы </h1> </div>  
-       </div> 
-      
-	  <div class="row">
-	      <div class="col-md-3 col-md-offset-1 ">
-          <div class="panel panel-success">
-             <div class="panel-heading text-center"> 24 октября 2016 </div>
-			 <div class="panel-body text-center"> 25 октября в РГПУ им. А.И. Герцена состоится Всероссийская научно-практическая
-			 конференция </br> «Актуальные вопросы современного образования». </br >Место проведения: РГПУ им. А.И. Герцена, наб. р. Мойки, 48, к. 1, ауд. 309</div>
-          </div> </div>
-		  
-		  <div class="col-md-2 col-md-offset-1">
-		  <div class="panel panel-success ">
-             <div class="panel-heading text-center"> 28 октября 2016 </div>
-			 <div class="panel-body text-center"> С 24 по 28 октября в РГПУ им. А.И. Герцена состоится «Неделя здоровья», в рамках которой состоятся танцевальные мастер-классы, 
-			 матч по футболу, соревнования по кроссфиту, фестиваль ГТО.</div>
-          </div>  </div>  
-		  
-		  <div class="col-md-3 col-md-offset-1">
-		  <div class="panel panel-success">
-             <div class="panel-heading text-center"> 24 ноября 2016 </div>
-			 <div class="panel-body text-center"> 21–24 ноября на кафедре методики обучения биологии и экологии РГПУ им. А.И. Герцена 
-			 состоится международная научно-практическая конференция на тему «Биологическое и экологическое образование в школе и вузе: 
-			 теория, методика, практика».</div></div>
-          </div>  
-       </div>		
-         <div class="row">
-	      <div class=" col-md-2 col-md-offset-2">
-          <img src="a1.jpg" >
-		  </div>
-		  <div class=" col-md-2 col-md-offset-1">
-		   <img src="a.jpg" >
-          </div>   
-		  <div class=" col-md-2 col-md-offset-1">
-		   <img src="a2.jpg" >
-          </div>   
-	   </div>	
+	<link href="css/style1.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="col-md-2"></div>
+  	<div class="container col-md-8">
+  	<form class="form-horizontal">
+	 <div class=" modal-dialog">
+     <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title"><strong>Оставить заявку</strong></h4>
+      </div>
+      <div class="modal-body ">
+	    <div class="container-flued">
+          <div class="row"> 
+	        <div class="col-xs-12 col-md-12">Вы можете оставить заявку на котейку или собаченьку (собаченьки лучше!). Чтобы мы знали, кто вам нужен! 
+		    Пожалуйста, оставьте ваше имя, <em>телефон</em>, и напишите, <em>кто вам нужен</em>. Когда подходящее животное появится, мы вам перезвоним.</div> 
+	     </div>			
+		 <div class="row form-group"> 
+	       <div class="col-xs-12 col-md-6 text-center"><p><input class="form-control" placeholder="Имя"></input></p>
+		   </div>
+	       <div class="col-xs-12 col-md-6 text-center"><p><input class="form-control" placeholder="Телефон для связи"></input></p>
+		   </div>
+		 </div>
+		 <div class="form-group"> 
+	       <div class=" col-md-12"><p class="text-justify"><textarea class="form-control" placeholder="Текст сообщения"></textarea></p>
+		   </div>
+		 </div>
+      </div>
+	  </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Оставить заявку</button>
+      </div>
+     </div>
+    </div> 
+	</form>
+	</div>
 	<script src="js/bootstrap.min.js"></script>
+	
   </body>
 </html>

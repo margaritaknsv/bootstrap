@@ -1,0 +1,11 @@
+input{padding:5px 10px;
+margin:15px 0 0 0;
+outline-color: #F6F4F8;
+}
+
+textarea{padding:5px 10px;
+margin:10px 0 0 0;
+outline-color: #F6F4F8;
+}
+
+div.modal-dialog{align:center}
